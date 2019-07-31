@@ -49,7 +49,3 @@ print(s)
 f=s.copy()
 print(f)
 
-
-
-
-
