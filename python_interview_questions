@@ -353,4 +353,4 @@ The Label Class is available in Tkinter Module. We first need to import it and t
 label1 = Label(frame1, text = “Here is a label!”)
 label1.grid()
 
-label1 is a variable to hold the Label Element and frame1 is the name of the Frame variable onto to which we want to adjust our Label
+label1 is a variable. to hold the Label Element and frame1 is the name of the Frame variable onto to which we want to adjust our Label
