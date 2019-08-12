@@ -1,0 +1,356 @@
+3. Enlist a difference between Tuples and Lists.
+
+Tuples and Lists are used to store a sequence of data within them. A difference between them is that Tuples once defined cannot be altered under any circumstances whereas Lists can be altered.
+
+ 
+
+4. Enlist Popular Frameworks of Python.
+
+Major Frameworks: Django and Pyramid
+
+Minor Frameworks: Bottle and Flask
+5. What is Lambda in Python specification?
+
+It is a single expression which is an Anonymous Method often used as Inline function.
+
+ 
+
+6. Enlist the Applications of Python Programming.
+
+1. Web Application Development and Web Frameworks such as DJango and Pyramid.
+2. Game Development
+3. Desktop Based Applications
+4. Micro Frameworks such as Bottle and Flask
+
+ 
+
+7. What is the grid() method used for in Python?
+grid() method is the one that all the widgets in a Python GUI Program’s frame have. It’s associated with a layout manager, which lets you arrange widgets in a Frame.
+
+ 
+
+8. Is Python a Scripting Language or not?
+
+Python is a General-Purpose Programming Language or rather a Multi-Purpose Programming Language. It is also a Scripting Language as it can be used to combine it into HTML Code used for Web Development.
+
+ 
+
+9. Explain modes in Python Programming Environment.
+
+Script Mode: This mode is used to compile and save Python programs which is not possible in the Interactive mode.
+
+Interactive Mode: This mode can be thought of as a scratchpad to check out codes in Python Environment.
+
+In order to make it executable, we should prefer Script Mode.
+
+ 
+
+10. What is Slicing in Python?
+
+Slicing is a terminology hat is used to generate sliced or modified output from Lists and Tuples.
+
+ 
+
+11. Enlist commonly used Classes in games Module in livewires Package?
+
+The commonly used Classes in Games Module under Livewires Package are as follows:
+Text
+Screen
+Sprite 
+Message
+
+ 
+
+12. What is the difference between Print(“Hello World”) and print(“Hello World”)?
+
+Python Programming Language is Case-Sensitive. So, Print(“Hello World”) would give an error as the syntax is not correct. However, print(“Hello World”) would work perfectly.
+
+ 
+
+13. How do you create a RadioButton Element in Python?
+
+The RadioButton Class is available in Tkinter Module. We first need to import it and then we can take in a frame label by the following command:
+
+radiobutton1 = Radiobutton(frame1, text= “C Programming”, value=0)
+radiobutton1.grid()
+
+radiobutton1 is a variable to hold the Radio Button Element and frame1 is the the name of the Frame variable onto to which we want to adjust our Radio Button. The default value of a Radio Button is 1 which means ‘Selected’. We need to set it to value=0.
+
+ 
+
+14. How to take input from the User in Python?
+
+Python provides a built-in method to accept input from the user.
+It is as follows: input(“Enter the Input”)
+However, in order to store the input in a variable, you must write a variable name before the input() method. 
+It can done as follows: var1=input(“Enter the input”)
+
+ 
+
+15. How to terminate a line of code in Python?
+
+Python is an extremely efficient and easy to use language. You can terminate a Python line of code using a Semi-Colon. However, it is not mandatory to use a Semi-colon at the end of every line. It is up to you if you want to use it or not. 
+16. Enlist various Exceptions identified by Python?
+
+The various exceptions identified by Python Environment are as follows:
+1. IOError
+2. IndexError
+3. KeyError
+4. NameError
+5. SyntaxError
+6. ValueError
+7. TypeError
+
+ 
+
+17. What is namespace in Python?
+For every variable that is introduced in Python, there is a namespace that is associated with the place holder for that particular variable. It is a place holder where a variable can be linked to the object placed.
+
+ 
+
+18. What is a Frame in Python GUI?
+
+A Frame in Python can be related as a storage holder for other Graphical User Interface or GUI elements such as Label, Text Entry, Text Box, Check Button, RadioButton, etc.
+
+ 
+
+19. How do you include comment feature in a Python program?
+
+Python Programming Environment supports good features for comment as it helps the developers to document the code without any confusion. You can write a comment in a Python program using the following command:
+
+Syntax:
+# Comment Here
+
+ 
+
+20. What is the difference between input() method and raw_input() method?
+
+raw_input() method returns string values whereas input() method returns integer vaues.
+Input() method was used in Python 2.x versions whereas Python 3.x and later versions use raw_input() method. However, input()method has been replaced by raw_input() method in Python 3.x.
+
+ 
+
+21. What is the difference between Lists and Tuples in terms of Syntax?
+
+Both Lists and Tuples are used to store a sequence of data within them. However, a major difference between them is that Tuples use parantheses ( ) in its syntax whereas Lists use Brackets in its syntax [ ].
+
+ 
+
+22. What is the difference between Text Entry element and Text Box element in Tkinter Module?
+
+A Text Entry element is used to receive an input of only one single line whereas a Text Box provides a space to receive input for multiple lines.
+
+ 
+
+23. How do you create a Check Button Element in Python?
+
+The CheckButton class is available in Tkinter Module. We first need to import it and then we can take in a frame label by the following command:
+
+checkbutton1 = Checkbutton(frame1, text= “C Programming”)
+checkbutton1.grid()
+
+checkbutton1 is a variable to hold the Check Button Element and frame1 is the name of the Frame variable onto which we want to adjust our Check Button. It takes in a parameter named as Text which is used to display the name for the Check Button.
+
+ 
+
+24. What is the difference between a Lambda and Def?
+
+A Def is a function that can contain multiple expressions whereas a Lambda can contain only one single expression. A Def method can contain return statements whereas a Lambda cannot contain return statements. A Lambda can be used inside lists and dictionaries.
+
+ 
+
+25. What is a Line Continuation Character in Python?
+
+A Line continuation character in Python is the one which lets us to continue a single line of code on the next line without changing its meaning. We can do it using a Line continuation character provided by Python which is a Backslash.
+
+ 
+
+26. How do you define the dimensions of a window in a Python Graphics Program?
+
+We can define the dimensions i.e., width and height of a Window in a Python GUI programming. It can be defined using the geometry() method. It takes in two parameters: width and height respectively.
+
+Example: geometry(“width * height”)
+
+ 
+
+27. Enlist the Looping constructs available in Python.
+
+Python provides using two looping constructs and these are For Loop and While Loop. Both of these looping constructs are same. The only difference is of the syntax that both of these use.
+
+ 
+
+28. What is range() method in Python?
+
+Range() method is Python is used as a Looping construct. It takes in 2 mandatory parameters and 1 optional parameter.
+
+Example: range(1,10,2)
+
+This method prints numbers after every alternate iterations between 1 and 10. It prints 1 3 5 7 9.
+
+ 
+
+29. Are indentations mandatory to use in Python?
+
+Indentations are very much important to use in Python. We normally do not use braces to indicate the scope of a function in a Python program. Indentation lets the Python Interpreter to understand the scope of a function automatically. Not using indentations properly in a Python program generates errors normally.
+
+ 
+
+30. Which method is used to find out the location of the pointer in a file?
+The tell() method is used to return the current location or position of the read/write pointer within the file. This method doesn’t require any parameter to be passed in it.
+
+Syntax:
+
+FileVariableName.tell()
+
+ 
+
+31. Enlist the Mutable Built-in types in Python programming environment.
+
+The Mutable Built-in types in Python Programming Environment are as follows:
+
+1. Sets
+2. Dictionaries
+3. Lists
+
+ 
+
+32. How do you create a Text Box Element in Python?
+
+The Text Box Class is available in Tkinter Module. We first need to import it and then we can take in a frame label by the following command:
+
+text1 = Text(frame1, width = 35, height = 5)
+text1.grid()
+
+text1 is a variable to hold the Text Element and frame1 is the the name of the Frame variable onto to which we want to adjust our Text Box. It has two parameters viz., width and height that defines its dimensions.
+It is mandatory to define the Frame first.
+
+ 
+
+33. Enlist some of GUI Elements in Python Tkinter module?
+
+Frame, Label, Text Entry, Check Button, Radio Button, Text Box are some of the few Tkinter GUI Elements used in Python.
+
+ 
+
+34. Which method is used to set the file pointer at a particular location?
+
+The seek() method is used to set the File pointer to a particular position in the Text File. It takes in two parameters out of which the first one is mandatory and the second one is optional.
+
+Syntax:
+
+seek(location, source)
+
+ 
+
+35. Why is Finally Block used in Python Exception Handling?
+
+A Finally Block is generally used in association with try and catch blocks in Python. A Finally Block executes itself no matter if an error occurs at run time or not. It is the default execution block in Python Exception Handling technique.
+
+ 
+
+36. What is a DocString and what is it used for?
+
+A DocString represents Document String that is used to Document Python Modules, Classes and Methods.
+
+ 
+
+37. How is the memory management process in Python?
+
+Like other programming environments, Python Programming Environment has Garbage Collection Techniques that manages the Memory efficiently. Moreover, the memory is managed by the Private Heap which is ultimately managed by the Python Memory Manager.
+38. What is another method for Using Loops with While Loop and For Loop?
+
+Python provides a method named as range() that provides looping constructs. It works in similar fashion as while and for loop. It takes in 2 compulsory parameters and 1 optional parameter.
+
+ 
+
+39. How can we import different packages in a Python program?
+
+Syntax:
+
+from Package_Name import Module_Name
+
+Example:
+
+from livewires import games
+40. Does Python Compiled Code contains Byte-Codes?
+
+No. Python is primarily an Interpreted Language. However, at first the .py file is compiled to something called as Python Byte-Code which is not a file that contains Binary digits like other Programming environments. It actually contains Python specific instructions that helps in optimizing the startup speed.
+
+ 
+
+41. Does Python Supports Switch Case statements?
+
+No, Python does not have provision for Switch Case statements. However, it provides with an alternative called as ‘One-to-One Mapping’.
+
+ 
+
+42. How do you create a Button Element in Python?
+
+The Button Class is available in Tkinter Module. We first need to import it and then we can take in a frame label by the following command:
+
+button1 = Button(frame1, text = “I am a Button”)
+button1.grid()
+
+button1 is a variable to hold the Button Element and frame1 is the name of the Frame variable onto to which we want to adjust our Button. It is mandatory to define the Frame first.
+
+ 
+
+43. How do you print the sum of digits from 1 to 50 in Python?
+
+print(sum(range(1,51))
+
+This command would print in the sum of digits from 1 to 50.
+
+ 
+
+44. What is PEP 8 in Python?
+
+PEP 8 is a set of recommendations about writing Python Code so as to make it readable and useful for other programmers. It is more of a coding convention.
+45. What is a Decorator in Python?
+
+Decorators allow you to wrap a method or a class function that executes a set of code lines before or after the execution of the original code. Decorator also allows to inject or modify code in methods or classes.
+
+ 
+
+46. What is Django Framework in Python?
+
+Django is a high-level Python framweork which is used primarily for Web Development. This framework encourages fast and efficient development with pragmatic and clean design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
+ 
+
+47. Is Python a Compiled or an Interpreted Programming Language?
+
+Python programs have the extension .py. These source files are first compiled to Byte Codes (which does not contain the binary codes). These Byte Code files helps in startup speed optimization. These byte-codes are then sent to the Python Virtual Machine where lines of codes are read one after another which means that it is interpreted.
+
+ 
+
+48. Enlist the Non-Mutable Built-in types in Python programming environment.
+
+The Non-Mutable Built-in types in Python Programming Environment are as follows:
+
+1. Tuples
+2. Numbers
+3. Strings
+
+ 
+
+49. How can we define Scope in a Python program?
+
+Python programming environment does not support the use of Braces for Defining Scope for a variable or a method. However, it uses Indentations to let the Python interpreter decide the scope itself. Proper indentations, if not used will normally generate an error.
+
+ 
+
+50. What is Tkinter in Python and what is it used for?
+
+Tkinter is a Python module available for Python programmers for development of Graphical User Interface (GUI) programs. Tkinter module is used to import the methods required for creation of GUI in a Python program.
+51. How are exceptions handled in Python?
+
+An Exception is raised by Python when an error occurs at program run-time. Python Exceptions can be caught using try and catch blocks. When you are suspicious of a statement, move it it into the try block and on error the control moves into the catch block and a pre-defined activity can be executed which helps to avoid an abnormal termination of the program.
+52. How do you create a Label Element in Python?
+
+The Label Class is available in Tkinter Module. We first need to import it and then we can take in a frame label by the following command:
+
+label1 = Label(frame1, text = “Here is a label!”)
+label1.grid()
+
+label1 is a variable to hold the Label Element and frame1 is the name of the Frame variable onto to which we want to adjust our Label
